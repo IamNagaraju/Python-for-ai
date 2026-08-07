@@ -1,5 +1,6 @@
-import requests
+nums = [10,20,30]
 
-# Download a web page
-response = requests.get("https://api.github.com")
-print(response.status_code)  # Should print 200
+nums.append(40)
+nums.remove(20)
+nums.sort()
+print(nums)

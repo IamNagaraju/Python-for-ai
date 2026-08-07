@@ -5,3 +5,5 @@
 | `npm install`  | `pip install`                                                 |
 | `npm run dev`  | `python app.py`                                               |
 | `nvm`          | `venv` (different purpose, but both help manage environments) |
+
+python uses pep8 (python enhacement proposal 8)

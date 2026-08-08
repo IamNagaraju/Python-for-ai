@@ -17,14 +17,14 @@ fruits[0] = "Mango"
 
 # Python doesn't allow changes to tuples.
 
-# Tuple (Immutable)
-fruits = ("Apple", "Banana", "Orange")
+# List (Mutable)
+fruits = ["Apple", "Banana", "Orange"]
 
 print(fruits)
 
 # Output:
 
-# ('Apple', 'Banana', 'Orange')
+# ['Apple', 'Banana', 'Orange']
 
 # Now try:
 
@@ -32,6 +32,6 @@ fruits[0] = "Mango"
 
 # Output:
 
-# TypeError: 'tuple' object does not support item assignment
+# ['Mango', 'Banana', 'Orange']
 
-# Python doesn't allow changes to tuples.
+# Python allows changes to lists.

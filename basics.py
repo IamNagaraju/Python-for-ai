@@ -42,6 +42,7 @@ print(result)
 # Wrong
 million = 1,000,000  # Creates a tuple, not a number!
 
+
 # Right
 million = 1000000    # Hard to read
 million = 1_000_000  # Python style

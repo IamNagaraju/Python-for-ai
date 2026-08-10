@@ -3,12 +3,25 @@ languages = ["Python","JavaScript", "Java", "Go"]
 print(languages[0])
 print(languages[-1])
 
+# isinstance() in javascript it is like Array.isArray() in python it is isinstance()
+a = [1, 2, 3]
+
+print(isinstance(a, list))      # True
+print(isinstance(a, dict))      # False
+print(isinstance(a, tuple))     # False
+
 #Replace "Java" with "TypeScript"
 for index, lang in enumerate(languages):
     if lang == "Java":
         languages[index] = "TypeScript"
 
 print(languages)
+# when we enumerate [
+#     (0, "Python"),
+#     (1, "Java"),
+#     (2, "C++"),
+#     (3, "JavaScript")
+# ]
 
 #append()
 languages = ["Python", "JavaScript", "Go"]

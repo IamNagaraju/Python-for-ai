@@ -50,10 +50,10 @@ for num in numbers:
 # *****
 for i in range(1,6):
     res = ""
-    for j in range(1, 6):
+    for j in range(1, i+1):
         res += "*" 
     
-    print(res)
+    print(res, '======')
 
 # 1
 # 12

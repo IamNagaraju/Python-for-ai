@@ -34,7 +34,7 @@ print(employee.values()) # dict_values(['Naga', 30, 'Hyderabad'])
 
 #items() 
 
-print(employee.items()) # dict_items([ ('name', 'Naga'), ('age', 30), ('city', 'Hyderabad') ])
+print(employee.items(), '======') # dict_items([ ('name', 'Naga'), ('age', 30), ('city', 'Hyderabad') ])
 
 for key, value in employee.items():
     print(key, value)   

@@ -7,6 +7,7 @@ if is_admin:
         print("Welcome, admin!")
 else:
     print("Access denied.")
+    
 score = 85
 if score >=90:
     print("Excellent performance!")

@@ -73,6 +73,16 @@ def test():
         print("B")
 
 print(test())
+try:
+    age = -5
+
+    if age < 0:
+        raise ValueError("Age cannot be negative")
+
+    print(age)
+
+except ValueError as e:
+    print("Error:", e)
 # Return value = 10
 
 # ↓

@@ -1,0 +1,1 @@
+from app.config.settings import GEMINI_API_KEY, GEMINI_MODEL
